@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Post;
 use App\Http\Livewire\User;
 use App\Http\Livewire\Home;
+use App\Http\Livewire\Form;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,5 @@ Route::get('post', Post::class);
 Route::get('user', User::class); // inline component php artisan make:livewire User --inline
 
 Route::get('home/{name?}', Home::class);
+
+Route::get('form', Form::class);
