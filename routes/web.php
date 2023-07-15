@@ -25,7 +25,7 @@ Route::get('/', function () {
 });
 
 Route::get('post', Post::class);
-Route::get('user', User::class); // inline component php artisan make:livewire User --inline
+// Route::get('user', User::class); // inline component php artisan make:livewire User --inline
 
 Route::get('home/{name?}', Home::class);
 
@@ -36,3 +36,5 @@ Route::get('action', Action::class);
 Route::get('product', Product::class); // life cycle hook testing
 
 Route::get('contact', Contact::class); // form validation
+
+Route::get('user', User::class);
