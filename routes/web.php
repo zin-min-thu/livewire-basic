@@ -8,6 +8,7 @@ use App\Http\Livewire\Form;
 use App\Http\Livewire\Action;
 use App\Http\Livewire\Product;
 use App\Http\Livewire\Contact;
+use App\Http\Livewire\Student;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,3 +39,5 @@ Route::get('product', Product::class); // life cycle hook testing
 Route::get('contact', Contact::class); // form validation
 
 Route::get('user', User::class);
+
+Route::get('student', Student::class);
