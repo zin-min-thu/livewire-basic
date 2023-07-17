@@ -9,6 +9,7 @@ use App\Http\Livewire\Action;
 use App\Http\Livewire\Product;
 use App\Http\Livewire\Contact;
 use App\Http\Livewire\Student;
+use App\Http\Livewire\Uploads;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,3 +42,5 @@ Route::get('contact', Contact::class); // form validation
 Route::get('user', User::class);
 
 Route::get('student', Student::class);
+
+Route::get('upload', Uploads::class);
