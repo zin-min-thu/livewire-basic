@@ -10,6 +10,7 @@ use App\Http\Livewire\Product;
 use App\Http\Livewire\Contact;
 use App\Http\Livewire\Student;
 use App\Http\Livewire\Uploads;
+use App\Http\Livewire\Images;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,3 +45,5 @@ Route::get('user', User::class);
 Route::get('student', Student::class);
 
 Route::get('upload', Uploads::class);
+
+Route::get('image', Images::class);
